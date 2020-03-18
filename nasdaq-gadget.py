@@ -18,7 +18,7 @@ from webbrowser import open_new_tab
 from json import dumps as to_json
 gi.require_version('WebKit2', '4.0')
 from gi.repository import WebKit2, Gtk
-gi.require_version:('Gtk', '3.0')
+gi.require_version('Gtk', '3.0')
 window = Gtk.Window()
 webview = WebKit2.WebView()
 webview.load_uri("https://s.tradingview.com/widgetembed/?frameElementId=tradingview_04652&symbol=OANDA%3ANAS100USD&interval=1&hidesidetoolbar=0&saveimage=0&toolbarbg=f1f3f6&studies=%5B%5D&hideideas=1&theme=White&style=1&timezone=Etc%2FUTC&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en&utm_source=www.livecharts.co.uk&utm_medium=widget&utm_campaign=chart&utm_term=OANDA%3ANAS100USD")
